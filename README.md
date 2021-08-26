@@ -3,12 +3,6 @@
 ## Durée du projet
 **2 semaines**
 
-## Documentation
-Récupérer la documentation afin de connaîtres les différents détails liés au projet.
-
-## Mockups
-https://whimsical.com/music-mobile-NCEPzpktL9PothapususED
-
 ## Vue d'ensemble
 Il s’agit d’une application Web mobile permettant d’écouter de la musique en ligne depuis son compte.
 Dans ce projet, la lecture de la musique ne sera pas possible (audio). Il s’agit d’une maquette fonctionnelle de présentation du projet.
@@ -23,3 +17,9 @@ L’application sera composée de 6 pages : splash screen, page de connexion, pa
 
 ## Technologies utilisées
 HTML, SASS et JavaScript
+
+## Mockups en ligne
+https://whimsical.com/music-mobile-NCEPzpktL9PothapususED
+
+## Mockups
+![Board](borad.png)
