@@ -15,6 +15,9 @@ Dans ce projet, la lecture de la musique ne sera pas possible (audio). Il s’ag
 ## Caractéristiques
 L’application sera composée de 6 pages : splash screen, page de connexion, page d’inscription, page d’accueil, page de détails d’un album, page d’écoute d’une musique.
 
+## Documentation de l'API
+http://musics.logikstik.odns.fr/api/docs
+
 ## Technologies utilisées
 HTML, SASS et JavaScript
 
@@ -23,3 +26,12 @@ https://whimsical.com/music-mobile-NCEPzpktL9PothapususED
 
 ## Mockups
 ![Board](borad.png)
+
+## Liens
+https://vos-competences.com -> Cours JavaScript  
+https://writecode.fr/?technology=javascript -> Fiche mémo JavaScript  
+https://www.sitepoint.com/get-url-parameters-with-javascript/ -> Passer des valeurs via une URL en JavaScript  
+https://developer.mozilla.org/fr/docs/Web/API/Window/localStorage -> localStorage
+
+# Notes
+> :warning: **Attention ! Cet atelier n'utilise pas Node.js, donc faites attention lors de vos recherches que les articles que vous trouvez ne traite pas de ce sujet.**
