@@ -1,0 +1,169 @@
+@import 'variables';
+
+/////////////////light mode
+  
+
+$backgroundLight: linear-gradient(180deg, rgba(88,79,114,1) 0%, rgba(124,115,153,1) 11%, rgba(241,236,245,1) 40%);
+$textLight: white;
+
+
+$backgroundDark: linear-gradient(180deg, rgba(20,1,65,1) 0%, rgba(75,58,162,1) 11%, rgba(241,236,245,1) 40%);
+$textDark: white;
+
+
+:root {
+    
+  --color-page-background: #{$backgroundDark};
+  --color-text: #{$textDark};
+ 
+
+}
+
+.dark {
+  --color-page-background: #{$backgroundDark};
+   
+}
+
+.light {
+  --color-page-background: #{$backgroundLight};
+   
+
+}
+  
+
+////////////////////////////
+
+
+
+
+
+body  {
+    background: var(--color-page-background);
+    overflow-y: auto;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: white;
+    margin: 0;
+    
+}
+
+
+.dots {
+    width: 144%;
+    position: absolute;
+    bottom: 39%;
+    left: -99px;
+    z-index: 1;
+    opacity: 0.33;
+}
+
+
+    // Contient le titre de l'album et le nom d'artiste
+    .containerNom {
+        padding-bottom: 125px;
+        padding-top: 30px;
+        font-weight: 900;
+    }
+            // nom de l'album
+            h1 {
+                padding-left: 29px;
+                margin-bottom: -12px;
+                margin: 0;
+                margin-left: 12%;
+                line-height: 0.5em;
+               font-size: 1.5em;
+
+            }
+                
+            // nom de l'Artiste
+            p {
+                padding-left: 75px;
+                padding-top: -20%;
+            }
+     
+    //Contient les Tracks à jouer
+    .containerTrack {
+        padding-bottom: 65px;
+        padding-top: 133px;
+        padding-left: 17%;
+        
+
+    }
+                 // Ligne Verticale; sépare les tracks du miniplay
+
+                .verticalLine{
+                    border-left: 2px solid $time;
+                    display: block;
+                    position: absolute;
+                    height: 100%;
+                    margin: 0 20px;
+                    opacity: 0.69;
+                    overflow: auto;
+                    position: fixed;
+                    
+                }
+
+                #div1 {
+                    height: 4000%;
+                }
+
+                // "bouton" cote gauche
+                .onPlay {
+                    position: absolute;
+                    right: 82%;
+                    top: 64%;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    background-color: $buttonForm;
+                    padding: 7px 37px;              
+                    border-radius: 17px 0px;       
+                    height: 12px;
+                    font-size: 37%;
+                    
+                    
+                    
+                }
+                    #dot {
+                        width: 1vh;
+                        height: 1vh;
+                        background-color: $dotSearch;
+                        border-radius: 50%;   
+                        padding-left: 20%; 
+                    }
+
+            li {
+                list-style: none;
+                margin-bottom: 3vh;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            a {
+                text-decoration: none;
+                text-decoration-color: none;
+                color: $tracksColor;
+                font-weight: bold;
+                font-size : 1.23em;
+            }
+
+            span {
+                color : $time;
+                opacity: 0.69;
+                display: inline-flex;
+                justify-content: flex-end;
+                max-width: 7vh;
+                min-width: 98px;
+                font-size: 14px;
+            }
+
+    #img {
+        position: absolute;
+        width: 255px;
+        top: 112px;
+        left: 77px;
+        z-index: 1;
+    }
+
+
+@import 'nav';
